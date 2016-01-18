@@ -48,4 +48,4 @@ public class NotificationManager {
   }
 }
 
-typealias TBNotificationManager = NotificationManager
+public typealias TBNotificationManager = NotificationManager
