@@ -47,3 +47,5 @@ public class NotificationManager {
     observerTokens = []
   }
 }
+
+typealias TBNotificationManager = NotificationManager
