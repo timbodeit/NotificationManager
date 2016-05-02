@@ -28,13 +28,7 @@ public class NotificationManager {
   
   // MARK: - Observer handling
   
-  public func registerObserver(name: String!, block: (NSNotification! -> Void)) {
-    let newToken = NSNotificationCenter.defaultCenter().addObserverForName(name, object: nil, queue: nil, usingBlock: block)
-    
-    observerTokens.append(newToken)
-  }
-  
-  public func registerObserver(name: String!, forObject object: AnyObject!, block: (NSNotification! -> Void)) {
+  public func registerObserver(name: String!, forObject object: AnyObject? = nil, block: (NSNotification! -> Void)) {
     let newToken = NSNotificationCenter.defaultCenter().addObserverForName(name, object: object, queue: nil, usingBlock: block)
     observerTokens.append(newToken)
   }
