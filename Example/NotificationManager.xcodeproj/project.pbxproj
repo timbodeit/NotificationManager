@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9D9C291455A020C90B94C4D1 /* Pods_NotificationManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1F6CCEB61AA2C1F2DDC825 /* Pods_NotificationManager_Tests.framework */; };
+		F1D22E37238A0DE77EFF8C89 /* Pods_NotificationManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F929DF14318E461605A1AE /* Pods_NotificationManager_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12A9FD84C06095ACFB241EC8 /* NotificationManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NotificationManager.podspec; path = ../NotificationManager.podspec; sourceTree = "<group>"; };
 		39491471F35A947D708D0582 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		45F79FD9D604410A50E529EA /* Pods-NotificationManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationManager_Tests/Pods-NotificationManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		411929EF5E5ED00E9E8DF364 /* Pods-NotificationManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationManager_Tests/Pods-NotificationManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* NotificationManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		775316CB0045FBD8B0AD10F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8E1F6CCEB61AA2C1F2DDC825 /* Pods_NotificationManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95174E5DF6862E4A17CC5E82 /* Pods-NotificationManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationManager_Tests/Pods-NotificationManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		89F929DF14318E461605A1AE /* Pods_NotificationManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F688312EEB618ADF747D4BC /* Pods-NotificationManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationManager_Tests/Pods-NotificationManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,28 +28,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D9C291455A020C90B94C4D1 /* Pods_NotificationManager_Tests.framework in Frameworks */,
+				F1D22E37238A0DE77EFF8C89 /* Pods_NotificationManager_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09FB32735706C12E78B08474 /* Frameworks */ = {
+		33B555F61163B1D65C6CA10A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8E1F6CCEB61AA2C1F2DDC825 /* Pods_NotificationManager_Tests.framework */,
+				89F929DF14318E461605A1AE /* Pods_NotificationManager_Tests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0FC5EB577465FF703A68AB29 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				45F79FD9D604410A50E529EA /* Pods-NotificationManager_Tests.debug.xcconfig */,
-				95174E5DF6862E4A17CC5E82 /* Pods-NotificationManager_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -58,8 +49,8 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				0FC5EB577465FF703A68AB29 /* Pods */,
-				09FB32735706C12E78B08474 /* Frameworks */,
+				93E7E07238CA8BC9E75EFD34 /* Pods */,
+				33B555F61163B1D65C6CA10A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +89,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		93E7E07238CA8BC9E75EFD34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				411929EF5E5ED00E9E8DF364 /* Pods-NotificationManager_Tests.debug.xcconfig */,
+				9F688312EEB618ADF747D4BC /* Pods-NotificationManager_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,12 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NotificationManager_Tests" */;
 			buildPhases = (
-				66A8422027D019BDF0E31863 /* Check Pods Manifest.lock */,
+				06F62D73F8CD9D124EE85ADD /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				84896CB60FFE358A12740CF3 /* Embed Pods Frameworks */,
-				F7379DC6CD2E5C554F17BA64 /* Copy Pods Resources */,
+				2E7D3979F8BB10ED406C83FE /* [CP] Embed Pods Frameworks */,
+				5626C26992B5EE1D6EDBD095 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +133,7 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -165,29 +166,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		66A8422027D019BDF0E31863 /* Check Pods Manifest.lock */ = {
+		06F62D73F8CD9D124EE85ADD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		84896CB60FFE358A12740CF3 /* Embed Pods Frameworks */ = {
+		2E7D3979F8BB10ED406C83FE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,14 +196,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationManager_Tests/Pods-NotificationManager_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F7379DC6CD2E5C554F17BA64 /* Copy Pods Resources */ = {
+		5626C26992B5EE1D6EDBD095 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +309,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45F79FD9D604410A50E529EA /* Pods-NotificationManager_Tests.debug.xcconfig */;
+			baseConfigurationReference = 411929EF5E5ED00E9E8DF364 /* Pods-NotificationManager_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -322,12 +323,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95174E5DF6862E4A17CC5E82 /* Pods-NotificationManager_Tests.release.xcconfig */;
+			baseConfigurationReference = 9F688312EEB618ADF747D4BC /* Pods-NotificationManager_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -337,6 +339,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

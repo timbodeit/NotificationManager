@@ -15,7 +15,7 @@ passing a Swift closure.
 Every object, that listens to Notifications should have its own NotificationManager.
 All observers are automatically deregistered when the object is deallocated.
 */
-public class NotificationManager {
+open class NotificationManager {
   private var observerTokens: [AnyObject] = []
   
   // MARK: - Lifecycle
@@ -28,14 +28,14 @@ public class NotificationManager {
   
   // MARK: - Observer handling
   
-  public func registerObserver(name: String!, forObject object: AnyObject? = nil, block: (NSNotification! -> Void)) {
-    let newToken = NSNotificationCenter.defaultCenter().addObserverForName(name, object: object, queue: nil, usingBlock: block)
+  open func registerObserver(_ name: NSNotification.Name?, forObject object: AnyObject? = nil, block: @escaping ((Notification!) -> Void)) {
+    let newToken = NotificationCenter.default.addObserver(forName: name, object: object, queue: nil, using: block)
     observerTokens.append(newToken)
   }
   
-  public func deregisterAll() {
+  open func deregisterAll() {
     for token in observerTokens {
-      NSNotificationCenter.defaultCenter().removeObserver(token)
+      NotificationCenter.default.removeObserver(token)
     }
     
     observerTokens = []

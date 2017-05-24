@@ -1,20 +1,22 @@
 PODS:
-  - Nimble (3.0.0)
-  - NotificationManager (0.1.0)
-  - Quick (0.8.0)
+  - Nimble (7.0.0)
+  - NotificationManager (0.2.0)
+  - Quick (1.1.0)
 
 DEPENDENCIES:
-  - Nimble (= 3.0.0)
+  - Nimble (~> 7.0)
   - NotificationManager (from `../`)
-  - Quick (~> 0.8.0)
+  - Quick (~> 1.1.0)
 
 EXTERNAL SOURCES:
   NotificationManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
-  NotificationManager: 878548d1d7f04107b016ae67950d844069f21b7e
-  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+  Nimble: 874982b605d4d752fcac6be695d13c502de84b1b
+  NotificationManager: 9512c9fe8b1a128350a36bc070bc5e15d97470a5
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 2f455f6b8dbb85738e77fa7b536a709f04f52043
+
+COCOAPODS: 1.2.1
